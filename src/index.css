@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .filterbtn:before{
+    position:absolute;
+    content: '';
+    top: 50%;
+    right:-20px;
+    transform: translateY(-50%);
+    border-width:11px; 
+    border-style: solid;
+    border-color: transparent transparent transparent #166535;
+
+  }
+
